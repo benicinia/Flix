@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://rss.cnn.com/~d/styles/itemcontent.css"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0">
+    <channel>
+        <title><![CDATA[CNN.com - RSS Channel - App International Edition]]></title>
+        <description>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+        <link>https://www.cnn.com/app-international-edition/index.html</link>
+        <image>
+            <url>http://i2.cdn.turner.com/cnn/2015/images/09/24/cnn.digital.png</url>
+            <title>CNN.com - RSS Channel - App International Edition</title>
+            <link>https://www.cnn.com/app-international-edition/index.html</link>
+        </image>
+        <generator>coredev-bumblebee</generator>
+        <lastBuildDate>Tue, 15 Feb 2022 10:48:44 GMT</lastBuildDate>
+        <pubDate>Tue, 15 Feb 2022 10:29:15 GMT</pubDate>
+        <copyright><![CDATA[Copyright (c) 2022 Turner Broadcasting System, Inc. All Rights Reserved.]]></copyright>
+        <language><![CDATA[en-US]]></language>
+        <ttl>10</ttl>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml"
+                     href="http://rss.cnn.com/rss/edition"/>
+        <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="rss/edition"/>
+        <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/"/>
+        <item>
+            <title><![CDATA[Benny]]></title>
+             <description>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+             <id><![CDATA[1]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <online><![CDATA[1]]></online>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+                alt="profile"
+                               url="/zuix-web-flix-master/source/images/yu/1732216646984.jpg"
+                               height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+        <item>
+            <title><![CDATA[Benny]]></title>
+             <id><![CDATA[2]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+              <online><![CDATA[1]]></online>
+             <description>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/1727039161733.jpg"
+                                       src="/zuix-web-flix-master/source/videos/Snapsave.app_-FhkVIZbDZvjYk0UtWxt0TUtNCzwziLseX8R5ncYRmSQ6cAVpOniFf279Ah0UI3lHsrMrdwJ5Qafulh8.mp4"
+                               height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+                <item>
+            <title><![CDATA[hjejdjj]]></title>
+             <description>
+               <online><![CDATA[0]]></online>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+             <id><![CDATA[3]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <online><![CDATA[0]]></online>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/15f66c9be71b78188cb5e6ee9869006c.jpg"
+                      src="/zuix-web-flix-master/source/videos/Snapsave.app_-JPTXwMHjazWwi38ET4dj4PFpGglmEzETZ_noZALgQr_B5pgHqmFJmPROGn6gOFTY7DgjQy.mp4"          height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+         <item>
+            <title><![CDATA[hjejdjj]]></title>
+             <description>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+            <online><![CDATA[0]]></online>
+             <id><![CDATA[4]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/1732216584798.jpg"
+                   src="/zuix-web-flix-master/source/videos/Snapsave.app_-mUAJ7tJlxgnv9st1lCaE1OS0AfnVNrEN.mp4"            height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+         <item>
+            <title><![CDATA[hjejdjj]]></title> <description>
+              <online><![CDATA[1]]></online>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+             <id><![CDATA[5]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/1732818464303.jpg"
+                      src="/zuix-web-flix-master/source/videos/Snapsave.app_-t4IXwZQUXhFPNm3Im3nKNybh3L3kMXfiqsOKzTJoP29a9lKE3E.mp4"         height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+         <item>
+            <title><![CDATA[hjejdjj]]></title> <description>
+              <online><![CDATA[1]]></online>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+             <id><![CDATA[5]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/15f66c9be71b78188cb5e6ee9869006c.jpg"
+                  src="/zuix-web-flix-master/source/videos/Snapsave.app_-ZmC8uiqg.mp4"             height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+         <item>
+            <title><![CDATA[hjejdjj]]></title>
+            <online><![CDATA[1]]></online>
+            <description>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+             <id><![CDATA[6]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/1732818464303.jpg"
+                        src="/zuix-web-flix-master/source/videos/Snapsave.app_AQN_EQHWSh300xYEzKaIvMl2hKm5m7m5uUBof7b6nUaO5qIteDl1Cz1La3GsV689s1rYxHE0P2yh69RYKUrFOaHq.mp4"       height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+        <item>
+            <title><![CDATA[hjejdjj]]></title> <description>
+              <online><![CDATA[1]]></online>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+             <id><![CDATA[6]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/1727038793810~2.jpg"
+                     src="/zuix-web-flix-master/source/videos/Snapsave.app_-FhkVIZbDZvjYk0UtWxt0TUtNCzwziLseX8R5ncYRmSQ6cAVpOniFf279Ah0UI3lHsrMrdwJ5Qafulh8.mp4"          height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+        <item>
+            <title><![CDATA[hjejdjj]]></title> <description>
+              <online><![CDATA[1]]></online>
+            <![CDATA[CNN.com delivers up-to-the-minute news and information on the latest top stories, weather, entertainment, politics and more.]]></description>
+             <id><![CDATA[6]]></id>
+            <sex><![CDATA[male]]></sex>
+            <loc><![CDATA[Benny]]></loc>
+            <link>https://cnn.it/3Bk5X1Y</link>
+            <guid isPermaLink="true">https://cnn.it/3Bk5X1Y</guid>
+            <media:group>
+                <media:content medium="image"
+              
+                               url="/zuix-web-flix-master/source/images/yu/1727038366723.jpg"
+                         src="/zuix-web-flix-master/source/videos/Snapsave.app_-FhkVIZbDZvjYk0UtWxt0TUtNCzwziLseX8R5ncYRmSQ6cAVpOniFf279Ah0UI3lHsrMrdwJ5Qafulh8.mp4"      height="619" width="1100" type="image/jpeg"/>
+               
+            </media:group>
+        </item>
+    </channel>
+</rss>

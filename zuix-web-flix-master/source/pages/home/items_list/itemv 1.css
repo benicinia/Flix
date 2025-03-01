@@ -1,0 +1,111 @@
+/* styles.css */
+/* styles.css */
+/* Ensure custom controls are visible */
+
+
+#thumbnail {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  /* Ensure it is above the video but below the buttons */
+  display: none;
+  /* Hide by default */
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* General selectors to hide certain video controls */
+video::-webkit-media-controls-enclosure {
+  overflow: hidden;
+}
+
+video::-webkit-media-controls-timeline,
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-download-button {
+  display: none !important;
+}
+
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+
+video::cue {
+  display: none !important;
+}
+.video-wrapper {
+  position: relative;
+  height: 16em;
+  width: 9em;
+  /* Vertical orientation height */
+  margin-right: 1em;
+  /* Center the video player */
+  /* Adjust the width based on your preference */
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center center;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.gallery {
+  width: 100%;
+  height: auto;
+
+}
+
+.video #videoElement{
+  position: relative;
+  height: 16em;
+  width: 9em;
+  background-color: transparent;
+  scroll-snap-align: start;
+
+}
+
+.movie {
+  padding: 0px;
+
+}
+.movieg {
+    padding: 4px;
+ 
+}
+.mo
+.movie span.item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.movie span.item {
+  width: 9em;
+  height: 16em;
+  aspect-ratio: 3/4;
+  /* Adjust the width based on your preference */
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.movie span.item:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}

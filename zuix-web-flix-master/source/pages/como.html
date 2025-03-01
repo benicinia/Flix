@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Zuix.js Example</title>
+ <!-- Include zuix.js library -->
+ <script src="js/zuix-bundled.min.js"></script>
+ <style>
+  /* Style for the loader */
+  #loader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: rgba(255, 255, 255, 0.8);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 2em;
+  }
+ </style>
+</head>
+
+<body>
+
+ <!-- Loader -->
+ <div id="loader">Loading...</div>
+
+ <!-- Elements where the components will be loaded -->
+ <div id="component1" data-ui-load="myComponent1.html"></div>
+ <div id="component2" data-ui-load="myComponent2.html"></div>
+ <div id="component1" class="ttldtls" data-ui-load="pages/home/title_details" lazyLoad="true" data-ui-options="options.detailsPage"></div>
+ <div id="component2" data-ui-load="pages/home/profed" lazyLoad="true" data-ui-options="options.profedPage"></div>
+ <div id="component3" data-ui-load="pages/home/msg_Page" lazyLoad="true" data-ui-options="options.msgPage"></div>
+ <div id="component4" data-ui-load="pages/home/title_detail" lazyLoad="true" data-ui-options="options.detailPage"></div>
+
+ <!-- Initialize zuix.js -->
+ <script>
+  // Track the number of components to load
+  var componentsToLoad = 4;
+  var componentsLoaded = 0;
+
+  // Function to hide the loader
+  function checkAllComponentsLoaded() {
+   if (componentsLoaded === componentsToLoad) {
+    document.getElementById('loader').style.display = 'none';
+   }
+  }
+
+  // Initialize zuix.js
+  zuix.controller(function(cp) {
+   // Load the first component and listen for 'component:ready'
+   cp.loadComponent('#component1', 'pages/home/title_details', {
+    ready: function() {
+     console.log('Component 1 has finished loading!');
+     componentsLoaded++;
+     checkAllComponentsLoaded();
+    }
+   });
+
+   // Load the second component and listen for 'component:ready'
+   cp.loadComponent('#component2', 'pages/home/profed', {
+    ready: function() {
+     console.log('Component 2 has finished loading!');
+     componentsLoaded++;
+     checkAllComponentsLoaded();
+    }
+   });
+   cp.loadComponent('#component3', 'pages/home/msg_Page', {
+    ready: function() {
+     console.log('Component 2 has finished loading!');
+     componentsLoaded++;
+     checkAllComponentsLoaded();
+    }
+   });
+   cp.loadComponent('#component4', 'pages/home/title_details', {
+    ready: function() {
+     console.log('Component 2 has finished loading!');
+     componentsLoaded++;
+     checkAllComponentsLoaded();
+    }
+   });
+  });
+ </script>
+
+</body>
+
+</html>

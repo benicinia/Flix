@@ -1,0 +1,139 @@
+<header>
+ <button>
+  <i class="material-icons">arrow_back</i>
+ </button>
+ <h1 data-ui-field="title"></h1>
+</header>
+
+<main>
+ <div class="cover" data-ui-field="cover" layout="column bottom-center">
+  <div class="background"></div>
+  <div class="profile-pic profile pulse">
+   <img id="profile-pic-img" src="default-profile.png" alt="Profile Picture">
+  </div>
+
+  <div style="display:none;background-size: cover" data-ui-field="cover" class="profile pulse">
+   <img style="display: none" alt="Profile Icoqn" src="/zuix-web-flix-master/source/images/icons/profile_icon.png">
+  </div>
+  <h1 style="margin-left: 3em! important" class="watchable" self="size-large" data-ui-field="title">Movie title</h1>
+
+ </div>
+ <div layout="column top-left">
+
+  <h2 class="bio">bio<span></span></h2>
+  <div class="btt" layout="row right">
+   <button class="wtch bth" data-ui-field="watch-btn">soles
+   </button>
+   <button class="wtch bth" data-ui-field="watch-btn">feet
+
+   </button>
+   <button class="wtch bth" data-ui-field="watch-btn">booty</button>
+  </div>
+ </div>
+ <div layout="column center-center">
+  <p self="size-large" data-ui-field="overview"></p>
+  <h2 class="media">Media<span data-ui-field="vote"></span></h2>
+ </div>
+ <div class="grid-container">
+  <div self="size-small center-center">
+   <div class="container">
+    <div class="containere">
+     <h1>Edit Your Profile</h1>
+     <form id="profile-form">
+
+      <div class="profile-pic">
+       <img id="profile-pic-img" src="default-profile.png" alt="Profile Picture">
+       <input type="file" id="profile-pic-input">
+      </div>
+      <div class="form-group">
+       <label for="name">Name</label>
+       <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+       <label for="bio">Bio</label>
+       <textarea id="bio" name="bio" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+       <label for="interests">Interests</label>
+       <input type="text" id="interests" name="interests" required>
+      </div>
+      <button type="submit">Save</button>
+     </form>
+    </div>
+
+    <h1>Create Your Profile</h1>
+    <form id="profileForm">
+     <div layout="row">
+      <div layout="column left"><label for="name">Name:</label>
+       <label for="age">Age:</label>
+       <label for="gender">Gender:</label>
+       <label for="profilePicture">Profile Picture:</label>
+      </div>
+
+      <div layout="column right">
+       <input type="text" id="name" name="name" required>
+
+
+       <input type="number" id="age" name="age" required>
+
+       <select id="gender" name="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+       </select>
+
+       <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+      </div>
+
+
+
+
+
+
+     </div>
+     <div layout="row ">
+      <label for="bio">Bio:</label>
+      <textarea id="bio" name="bio" required></textarea>
+     </div>
+     <label for="interest">interested in:</label>
+     <select id="interest" name="interest" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">both</option>
+     </select>
+
+     <label for="education">Education:</label>
+     <select id="education" name="education" required>
+      <option value="ba">Bachelor</option>
+      <option value="college">College</option>
+      <option value="other">Other</option>
+     </select>
+     <label for="lookie">Looking for:</label>
+     <select id="lookie" name="lookie" required>
+      <option value="long">long term</option>
+      <option value="short">just sex</option>
+      <option value="marrige">marrige</option>
+     </select>
+     <div layout="row">
+
+      <button type="submit">Create Profile</button>
+     </div>
+    </form>
+   </div>
+  </div>
+
+ </div>
+</main>
+
+<footer layout="row center-spread">
+ <div data-ui-field="edt-btn">
+  <i class="material-icons">edit</i>
+ </div>
+ <div>
+  <i class="material-icons">thumb_up</i>
+ </div>
+ <div data-ui-field="sve-btn">
+  <i class="material-icons">save</i>
+ </div>
+
+</footer>

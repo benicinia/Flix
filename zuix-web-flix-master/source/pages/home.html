@@ -1,0 +1,106 @@
+<!-- Busy Loader -->
+
+
+<!-- Detail Page (ensure this is loaded first) -->
+
+
+<div data-ui-load="loafer" id="loader" class="loader">Loading...
+<div class="loaderr">
+ 
+</div>
+</div>
+<div style="display: none" id="progressContainer">
+  <div id="progressBar"></div>
+  <div id="progressText">0%</div>
+</div>
+
+
+ <div id="main" data-ui-load="pages/home/main_cover" data-ui-field="main-cover" style="height: 8em; margin-top:0em;">
+ 
+ </div>
+
+ <div class="content" layout="column top-center">
+  
+  <div style="margin-top: 12.5em;z-index: 0" class="categories" layout="row center-spread">
+   <a href="#">Best እግር</a> &bull;
+   <a>Best ተረከዝ</a> &bull;
+   <a>Best</a> &bull;
+   <a>Action</a>
+  </div>
+ </div>
+
+ <div class="row centered" style="position: fixed; top: 9em; z-index: 0">
+  <div style="position:fixed; z-index: 0" layout="row centered" data-ui-field="header-tools">
+   <div class="topics" data-ui-load="@lib/controllers/view_pager" data-ui-options="options.topicIndicator">
+    <div>Dating</div>
+    <div>Reels</div>
+    <div>Photos</div>
+    <div>Travel</div>
+   </div>
+  </div>
+
+  <div style="position:fixed; z-index: 0" layout="" class="row centered cntx" style="overflow-y: hidden; padding-bottom: 0em">
+   <div data-ui-load="@lib/controllers/view_pager" data-ui-options="options.viewPager" class="feed-pager" draggable="false">
+    <div style="margin-top: -7em; margin-left: 3em" layout="row center" data-ui-field="apnd"></div>
+    <!-- TOP STORIES -->
+    <section style="margin-top: 5em" class id="fob" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.topicIndicator">
+     <div id="component5"class="component"  data-ui-load="pages/home/list_o" data-o-rss='_data/news-main.rss.xml'></div>
+     <div class="content" layout="row top-center">
+      
+      <div class="pst" layout="row center" data-ui-field="post">
+       <div layout="column top-left">
+        <input type="text" name="ttl">
+       </div>
+       <div layout="column top-right">
+        <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+       </div>
+      </div>
+      <div class="options" layout="row centered" style="margin-top: -10em; margin-left: 2em" >
+       
+       <button style="z-index: 100" data-ui-field="add-btn" class="flat-btn">
+        <i class="material-icons">add</i>
+       </button>
+       <button class="wtch" data-ui-field="watch-btn">
+        <div layout="row center-spread">
+         <i class="material-icons">add_location</i>
+         Meet & fuck
+        </div>
+       </button>
+       
+       <button data-ui-field="details-btn" class="flat-btn">
+        <i class="material-icons">info_outline</i>
+       </button>
+       
+      </div>
+     </div>
+     
+    </section>
+
+    <!-- WORLD -->
+    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.topicIndicator">
+     <div id="component6" class="component" data-ui-load="pages/home/list_v" data-o-rss='_data/news-main.rss.xml'></div>
+    </section>
+
+    <!-- EUROPE -->
+    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
+     <div id="component7" class="component" data-ui-load="pages/home/items_list" data-o-rss="_data/news-europe.rss.xml"></div>
+    </section>
+
+    <!-- TRAVEL -->
+    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
+     <div id="component8" class="component" data-ui-load="pages/home/items_list" data-o-rss="_data/news-travel.rss.xml"></div>
+    </section>
+   </div>
+  </div>
+ </div>
+
+ <!-- Comedy -->
+
+
+
+ <!-- Details Page -->
+ <div id="component1" class="component" data-ui-load="pages/home/title_details" data-ui-options="options.detailsPage"></div>
+ <div id="component2" class="component" data-ui-load="pages/home/profed" data-ui-options="options.profedPage"></div>
+ <div id="component3" class="component" data-ui-load="pages/home/msg_Page" data-ui-options="options.msgPage"></div>
+ <div class="component" id="component4" data-ui-load="pages/home/title_detail" data-ui-options="options.detailPage"></div>
+<div class="component" id="component9" data-ui-load="pages/home/shorts" data-ui-options="options.shortsPage"></div>

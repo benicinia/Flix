@@ -1,0 +1,188 @@
+<header>
+  <button>
+    <i class="material-icons">arrow_back</i>
+  </button>
+  <h1 data-ui-field="title"></h1>
+</header>
+
+<main>
+  <div layout="column top-center">
+      
+    <div class="profile-picx">
+       <div  data-ui-field="cover" class="profile-pic">
+        <img  id="profile-pic-img" src="your-image.jpg" alt="profile Image"  id="profile-pic-input">
+    </div>
+    <button class="edit-button" onclick="document.getElementById('profile-pic-input').click();"><i class="material-icons">edit</i></button></div>
+     
+    </div>
+    <input type="file" id="profile-pic-input" style="display: none;">
+    
+    
+    
+    <h1 style="margin-left: 3em! important" class="watchable" self="size-large" data-ui-field="title">Movie title</h1>
+
+  </div>
+  <div layout="column top-left">
+
+   <div class="grid-container">
+ 
+  
+  <div class="bio">
+   <h2>Bio</h2>
+   <p>Hi, I'm John! I love hiking, photography, and trying out new restaurants. Looking to meet new people and make lasting connections.</p>
+  </div>
+  <div class="interests">
+   <h2>Interests</h2>
+   <p>Travel, Music, Cooking, Reading, Fitness</p>
+  </div>
+  <div class="education">
+   <h2>Education</h2>
+   <p>Bachelor's in Computer Science, ABC University</p>
+  </div>
+  <div class="work">
+   <h2>Work</h2>
+   <p data-ui-field="overview">Web Developer at XYZ Company</p>
+  </div>
+  <div class="photos">
+   <img src="/zuix-web-flix-master/source/images/yu/1727038366723.jpg" alt="Photo 1">
+   <img src="/zuix-web-flix-master/source/images/yu/1727038366723.jpg" alt="Photo 2">
+   <img src="/zuix-web-flix-master/source/images/yu/1727038366723.jpg" alt="Photo 3">
+  </div>
+ 
+   
+  </div>
+  </div>
+  
+  
+  <div layout="column -center">
+   
+  <div class="grid-container">
+   <div self="size-small center-center">
+    
+        <form id="profileForm" >
+         
+           
+               
+                <input type="file" id="profile-pic-input">
+          
+        <div class="form-group" data-ui-field="editableName" >
+    <label for="name">Name</label>
+    <div class="name-display" data-ui-field="nameText">Benny</div>
+    <button class="name-button" data-ui-field="editName"><i class="material-icons">edit</i></button>
+    <input type="text" id="name-input" name="name" value="Benny" style="display: none" data-ui-field="nameInput" required>
+</div>
+
+</div>   <div class="form-group">
+                <label for="bio">Bio</label>
+                <textarea id="bio" name="bio" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="interests">Interests</label>
+                <input type="text" id="interests" name="interests" required>
+            </div>
+            <button type="submit">Save</button>
+        
+    </div>
+    
+
+  <div layout="row">
+  <div layout="column left"><label for="name">Name:</label>
+  <label for="age">Age:</label>
+  <label for="gender">Gender:</label>
+<label for="profilePicture">Profile Picture:</label>
+  </div>
+  
+  <div layout="column right">
+    <input type="text" id="name" name="name" required>
+
+
+<input type="number" id="age" name="age" required>
+
+<select id="gender" name="gender" required>
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="other">Other</option>
+</select>
+
+  <input type="file" id="profilePicture" name="profilePicture" accept="image/*" required>
+</div>
+    
+  
+
+  
+
+  
+  </div>
+  <div layout="row ">
+      <label for="bio">Bio:</label>
+  <textarea id="bio" name="bio" required></textarea>
+  </div>
+   <label for="interest">interested in:</label>
+  <select id="interest" name="interest" required>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">both</option>
+  </select>
+  
+  <label for="education">Education:</label>
+  <select id="education" name="education" required>
+    <option value="ba">Bachelor</option>
+    <option value="college">College</option>
+    <option value="other">Other</option>
+  </select>
+  <label for="lookie">Looking for:</label>
+  <select id="lookie" name="lookie" required>
+    <option value="long">long term</option>
+    <option value="short">just sex</option>
+    <option value="marrige">marrige</option>
+  </select>
+  <div layout="row">
+
+  <button type="submit">Create Profile</button>
+</div>
+</form>
+<form id="profile-form" >
+   <h2>Edit Profile</h2>
+   <label for="name">Name:</label>
+   <input type="text" id="name" name="name">
+   <label for="age">Age:</label>
+   <input type="text" id="age" name="age">
+   <label for="location">Location:</label>
+   <input type="text" id="location" name="location">
+   <label for="bio">Bio:</label>
+   <textarea id="bio" name="bio"></textarea>
+   <label for="interests">Interests:</label>
+   <input type="text" id="interests" name="interests">
+   <label for="education">Education:</label>
+   <input type="text" id="education" name="education">
+   <label for="work">Work:</label>
+   <input type="text" id="work" name="work">
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email">
+   <div class="error" id="email-error"></div>
+   <label for="phone">Phone:</label>
+   <input type="text" id="phone" name="phone">
+   <div class="error" id="phone-error"></div>
+   <button type="submit">Save Changes</button>
+  </form>
+    <div class="container">
+    <div class="containere">
+        <h1>Edit Your Profile</h1>
+</div>
+</div>
+
+  </div>
+</main>
+
+<footer layout="row center-spread">
+  <div data-ui-field="edt-btn">
+    <i class="material-icons">edit</i>
+  </div>
+  <div>
+    <i class="material-icons">thumb_up</i>
+  </div>
+  <div data-ui-field="sve-btn">
+    <i class="material-icons">save</i>
+  </div>
+
+</footer>

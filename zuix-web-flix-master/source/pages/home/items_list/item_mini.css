@@ -1,0 +1,40 @@
+.online-indicator{
+    position: absolute;
+    top: -1px;
+    right: 6px;
+    background-color: transparent;
+    color: green;
+    border-radius: 20%;
+    padding: 1px;
+  }
+  .online-indicatorz{
+    position: absolute;
+ 
+   top: -1px;
+    background-color: transparent;
+    color: green;
+    border-radius: 20%;
+    
+  }
+.story {
+        flex: 0 0 auto;
+        width: 100px;
+        height: 100px;
+        margin-right: .25rem;
+        background-color: #ccc;
+        border-radius: 5em;
+        margin-bottom: 0em;
+    }
+    .coverd {
+   width: 80px;
+   height: 80px;
+   border-radius: 5em;
+     background-size: cover;
+  background-position: center center
+}
+    @media (max-width: 768px) {
+        .story {
+            width: 80px;
+            height: 80px;
+        }
+    }

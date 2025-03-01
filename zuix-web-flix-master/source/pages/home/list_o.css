@@ -1,0 +1,6 @@
+.options {
+ position: fixed;
+    padding: 8px;
+    z-index: 1;
+margin-top: -6em;
+}

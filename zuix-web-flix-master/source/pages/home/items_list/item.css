@@ -1,0 +1,41 @@
+.gallery {
+    width: 100%;
+      
+}
+  .img {
+      
+      width:9em;
+      height: 12em;
+   border-radius: 10px;
+    
+    }
+  
+    .storyq {
+      width: 9em;
+      height: 12em;
+      background-color: #f0f0f0;
+      border-radius: 10px; 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-size:cover
+   
+    }
+.movie {
+    padding: 4px;
+ 
+}
+.movie span.item {
+     width:9em;
+ 
+     aspect-ratio:3/4;
+  /* Adjust the width based on your preference */
+  flex-grow: 1;
+  background-size: cover;
+  background-position: center center;
+  
+}
+.movie span.item:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}

@@ -1,0 +1,47 @@
+<header>
+    <button>
+        <i class="material-icons">arrow_back</i>
+    </button>
+    <h1 data-ui-field="title">Gallery</h1>
+    <div style="margin-top: 2em"  class="topics" data-ui-load="@lib/controllers/view_pager" data-ui-options="options.topicIndicator">
+    <div>
+      Dating
+    </div>
+    <div>
+      reels
+    </div>
+    <div>
+      Photos
+    </div>
+    <div>
+      Travel
+    </div>
+  </div>
+</header>
+
+<main style="margin-top: 4em" class="ttdt" >
+ 
+  <div class="app__videos" data-ui-load="@lib/controllers/view_pager"
+      data-ui-options="options.viewPager"
+    
+      draggable="false" data-o-layout="vertical" data-ui-field="vlst">
+ 
+          
+
+
+          
+
+   
+   <div layout="row" data-ui-field="app"  class="app__videos">
+    <div  layout="column right" class="pint" data-ui-field="contxt">
+     <div data-ui-load="pages/home/list_vp" data-o-rssR='_data/news-main2.rss.xml'></div>
+    </div>
+    <div  layout="column left" class="pint" >
+     <div data-ui-load="pages/home/pin" data-o-rssL='_data/news-main.rss.xml'></div>
+    </div>
+    
+    </div> 
+    
+</main>
+
+

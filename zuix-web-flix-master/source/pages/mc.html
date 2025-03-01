@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Certificate</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 20mm;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            line-height: 1.2;
+            margin: 0;
+            padding: 0;
+            width: 210mm;
+            height: 297mm;
+        }
+        .container {
+            padding: 20mm;
+        }
+        .header, .footer {
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo-box {
+            width: 150px;
+            height: 150px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 150px;
+            color: #888;
+        }
+        .footer {
+            margin-top: 20px;
+            font-size: 10px;
+        }
+        .medical-certificate-title {
+            text-align: center;
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid #000;
+            padding: 5px;
+            text-align: left;
+        }
+        .section-title {
+            font-weight: bold;
+            margin-top: 20px;
+            text-align: left;
+        }
+        .checkbox-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .checkbox-section div {
+            width: 32%;
+        }
+        .checkbox {
+            display: flex;
+            align-items: center;
+        }
+        .checkbox input {
+            margin-right: 5px;
+        }
+        .photo-box {
+            width: 150px;
+            height: 200px;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 200px;
+            color: #888;
+        }
+        .personal-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 20px;
+        }
+        .personal-info-row {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        .personal-info-row div {
+            width: 48%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-box">Logo</div>
+            <div>
+                <h1>Felege Birhan Medical Services</h1>
+                <h2>Your Beacon of Life</h2>
+            </div>
+            <div class="photo-box">Photo</div>
+        </div>
+
+        <div class="medical-certificate-title">
+            <h2>Medical Certificate</h2>
+        </div>
+        
+        <div class="personal-info">
+            <div class="personal-info-row">
+                <div><p><strong>First Name:</strong> HAILEMARYAM</p></div>
+                <div><p><strong>Middle Name:</strong> ZEWUDE</p></div>
+                <div><p><strong>Last Name:</strong> ABEIBE</p></div>
+            </div>
+            <div class="personal-info-row">
+                <div><p><strong>Date:</strong> Feb. 01, 2025</p></div>
+                <div><p><strong>No:</strong> 00317</p></div>
+                <div><p><strong>Card:</strong> 124</p></div>
+                <div><p><strong>Age:</strong> 27</p></div>
+                <div><p><strong>Sex:</strong> M</p></div>
+                <div><p><strong>Nationality:</strong> ETHIOPIAN</p></div>
+                <div><p><strong>Height:</strong> 176 cm</p></div>
+                <div><p><strong>Weight:</strong> 54 Kg</p></div>
+                <div><p><strong>Passport No.:</strong> ___________</p></div>
+                <div><p><strong>History of any significant past illness including psychiatric and drug allergy:</strong> ☑ NONE</p></div>
+            </div>
+        </div>
+
+        <div class="section-title">Types of medical examination</div>
+        <table>
+            <tr>
+                <th>Eye</th>
+                <th>Rt</th>
+                <th>[6/6]-Normal</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Lt</th>
+                <th>[6/6]-Normal</th>
+            </tr>
+            <tr>
+                <th>Ear</th>
+                <th>Rt</th>
+                <th>Normal</th>
+            </tr>
+            <tr>
+                <th></th>
+                <th>Lt</th>
+                <th>Normal</th>
+            </tr>
+        </table>
+
+        <div class="checkbox-section">
+            <div>
+                <p><strong>Cardiovascular System</strong></p>
+                <p>Normal ☑</p>
+                <p>Abnormal - NAD</p>
+                <p><strong>Respiratory System</strong></p>
+                <p>Normal ☑</p>
+                <p>Abnormal - NAD</p>
+                <p><strong>Gastrointestinal System</strong></p>
+                <p>Normal ☑</p>
+                <p>Abnormal - NAD</p>
+                <p><strong>Musculoskeletal System</strong></p>
+                <p>Normal ☑</p>
+                <p>Abnormal - NAD</p>
+                <p><strong>Central Nervous System</strong></p>
+                <p>Normal ☑</p>
+                <p>Abnormal - NAD</p>
+                <p><strong>Other</strong></p>
+                <p>Normal ☑</p>
+                <p>Abnormal - ___________</p>
+            </div>
+            <div>
+                <div class="section-title">Non-reactive/Reactive</div>
+                <p>HIV</p>
+                <div class="checkbox"><input type="checkbox" checked> Non-reactive</div>
+                <p>HBsAg</p>
+                <div class="checkbox"><input type="checkbox" checked> Negative</div>
+                <p>HCV</p>
+                <div class="checkbox"><input type="checkbox" checked> Non-reactive</div>
+                <p>VDRL</p>
+                <div class="checkbox"><input type="checkbox" checked> Non-reactive</div>
+            </div>
+            <div>
+                <div class="section-title">Normal/Positive</div>
+                <p>Hgb</p>
+                <div class="checkbox"><input type="checkbox" checked> Normal</div>
+                <p>RBS</p>
+                <div class="checkbox"><input type="checkbox" checked> Normal</div>
+                <p>UA</p>
+                <div class="checkbox"><input type="checkbox" checked> Normal</div>
+            </div>
+        </div>
+
+        <p><strong>Fit</strong> ☑ <strong>Unfit</strong> ☐</p>
+
+        <p>I certify that my medical examination contained above is true and any false statement will disqualify me from my employment benefit and claims.</p>
+        <p>Pregnancy and HIV must be repeated within 03 days before departure.</p>
+        <p>This certificate is valid for only 03 months.</p>
+
+        <p><strong>Examining physician and signature</strong></p>
+        <p>Dr. Wasihun Kochito (MD)</p>
+        <p>_________________________</p>
+        
+        <div class="footer">
+            <p>Addisu Gebeya next to Addisu Gebeya health center</p>
+            <p><strong>Phone numbers:</strong></p>
+            <p>+25194738262</p>
+            <p>+251974569113</p>
+        </div>
+    </div>
+</body>
+</html>

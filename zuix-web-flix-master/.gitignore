@@ -1,0 +1,11 @@
+# Ignore all node_modules directories
+docs/
+
+# Ignore a specific dist directory
+source/pages/xx 
+source/images
+source/videos 
+source/imagesy
+source/layoutf
+source/pages1
+source/controllersf

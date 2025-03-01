@@ -1,0 +1,156 @@
+<header>
+  <button>
+    <i class="material-icons">arrow_back</i>
+  </button>
+  <h1 data-ui-field="title"></h1>
+</header>
+
+<main>
+  <div class="cover" data-ui-field="cover" layout="column bottom-center">
+    <div class="background"></div>
+    <div class="profile pulse">
+      <img alt="Profile Icoqn" src="/zuix-web-flix-master/source/images/icons/profile_icon.png">
+    </div>
+    <h1 style="margin-left: 3em! important" class="watchable" self="size-large" data-ui-field="title">Movie title</h1>
+
+  </div>
+  <div layout="column top-left">
+
+    <h2 class="bio">bio<span></span></h2>
+    <div class="btt" layout="row right">
+      <button class="wtch bth" data-ui-field="watch-btn">soles
+      </button>
+      <button class="wtch bth" data-ui-field="watch-btn">feet
+
+      </button>
+      <button class="wtch bth" data-ui-field="watch-btn">booty</button>
+    </div>
+  </div>
+  <div layout="column center-center">
+    <p self="size-large" data-ui-field="overview"></p>
+    <h2 class="media">Media<span data-ui-field="vote"></span></h2>
+  </div>
+   <div class="containerm">
+   <div class="story">
+     <img src="/zuix-web-flix-master/source/images/img/1731537534190.jpg">
+   </div>
+   <div class="story">
+     <img src="https://via.placeholder.com/150">
+   </div>
+   <div class="story">
+     <img src="https://via.placeholder.com/150">
+   </div>
+   <div class="story">
+     <img src="https://via.placeholder.com/150">
+   </div>
+   <div class="story">
+     <img src="https://via.placeholder.com/150">
+   </div>
+ </div>
+   <div class="messages">
+    <div class="message">Hello! How can I help you today?</div>
+    <div class="message">I'm here to assist you with any questions you may have.</div>
+  </div>
+</main>
+
+<footer layout="row center-spread">
+  <div data-ui-field="wah-btn">
+    <i class="material-icons">send</i>
+  </div>
+  <div>
+    <i class="material-icons">thumb_up</i>
+  </div>
+  <div>
+    <i class="material-icons">add</i>
+  </div>
+</footer>
+
+
+
+<div data-ui-load="pages/home/main_cover"
+     data-ui-field="main-cover"
+     style="height: 90vh;margin-top: -18em;"></div>
+
+<div class="content" layout="column bottom-center">
+    <div class="categories" layout="row center-spread">
+        Best እግር
+        &bull;
+        Best ተረከዝ
+        &bull;
+        Best 
+        &bull;
+        Action
+    </div>
+    <div layout="row center" data-ui-field="apnd"></div>
+    <div class="options" layout="row center-spread">
+      
+
+        <button data-ui-field="add-btn" class="flat-btn">
+            <i class="material-icons">add</i>
+        </button>
+        <button class="wtch" data-ui-field="watch-btn">
+            <div layout="row center-left">
+                <i class="material-icons">add_location</i>
+                Meet & fuck
+            </div>
+        </button>
+       
+        <button data-ui-field="details-btn" class="flat-btn">
+            <i class="material-icons">info_outline</i>
+        </button>
+    </div>
+</div>
+
+<!-- Comedy -->
+<h1 self="left">shorts</h1>
+<div data-ui-load="@lib/controllers/view_pager"
+     data-ui-lazyload="auto"
+     data-o-passive="false"
+     layout="row top-left"  class="gallery"
+   >
+<div data-ui-load="pages/home/list_comedy"   data-o-rss='_data/news-main.rss.xml'
+     ></div></div>
+     <h1 self="left">online</h1>
+<div data-ui-load="@lib/controllers/view_pager"
+     data-ui-lazyload="auto"
+     data-o-passive="false"
+     layout="row top-left"  class="containerm"
+   >
+<div data-ui-load="pages/home/list_o"   data-o-rss='_data/news-main.rss.xml'
+     ></div></div>
+  
+    <h1 self="left">videos</h1>
+<div data-ui-load="@lib/controllers/view_pager"
+     data-ui-lazyload="auto"
+     data-o-passive="false"
+     layout="row top-left"  class="galleryv"
+   >
+  
+<div data-ui-load="pages/home/list_v"   data-o-rss='_data/vmain.rss.xml'
+     ></div></div>
+
+<div class="about-box" self="size-medium center" layout="column center-center">
+
+    <p>
+        If you like this template give it a star &#x2B50; on <a href="https://github.com/zuixjs/zuix-web-flix">GitHub</a>,
+        this will make the programmer happy &#128516; that will probably continue to improve it &#128640;
+    </p>
+    <p>
+        Feature requests, critics and comments are also welcome &#127752; in the repository <a href="https://github.com/zuixjs/zuix-web-flix/issues">issue tracker</a> &#128209;
+    </p>
+
+</div>
+
+
+<!-- Details Page -->
+<div data-ui-load="pages/home/title_details"
+     data-ui-options="options.detailsPage"></div>
+
+<!-- Details Page -->
+<div data-ui-load="pages/home/title_detail"
+     data-ui-options="options.detailPage"></div>
+     
+<!-- Details Page -->
+
+     <div data-ui-load="pages/home/msg_Page"
+     data-ui-options="options.msgPage"></div>
