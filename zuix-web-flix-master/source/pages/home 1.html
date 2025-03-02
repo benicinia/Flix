@@ -1,237 +1,153 @@
-<div data-ui-load="pages/home/main_cover" data-ui-field="main-cover" style="height: 50%;width:100vw;">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Profile</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-bottom: 1px solid #ddd;
+        }
+        header button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+        header h1 {
+            flex-grow: 1;
+            text-align: center;
+            margin: 0;
+        }
+        main {
+            padding: 20px;
+        }
+        .profile-pic-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid #ddd;
+        }
+        .profile-pic img {
+            width: 100%;
+            height: auto;
+        }
+        .edit-button {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 50%;
+            padding: 5px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px;
+            background-color: #f5f5f5;
+            border-top: 1px solid #ddd;
+        }
+        footer div {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <button>
+        <i class="material-icons">arrow_back</i>
+    </button>
+    <h1 data-ui-field="title">Edit Profile</h1>
+</header>
 
-</div>
-
-      <!-- video starts -->
-     
-       <div class="video" >
-  <video class="video__player" poster="/zuix-web-flix-master/source/images/thumb/Xvideos_clapping_clapping.._360p.png" src="/zuix-web-flix-master/source/videos/Xvideos_clapping_clapping.._360p.mp4"></video>
-      <!-- sidebar -->
-        <div class="videoSidebar">
-          <div class="videoSidebar__button">
-            <span class="material-icons"> favorite_border </span>
-            <p>12</p>
-          </div>
-          <div class="videoSidebar__button">
-            <span class="material-icons"> emoji_emotions </span>
-            <p>12</p>
-          </div>
-
-          <div class="videoSidebar__button">
-            <span class="material-icons"> message </span>
-            <p>23</p>
-          </div>
-
-          <div class="videoSidebar__button">
-            <span class="material-icons"> share </span>
-            <p>75</p>
-          </div>
+<main>
+    <div class="profile-pic-container">
+        <div data-ui-field="cover" class="profile-pic">
+            <img id="profile-pic-img" src="your-image.jpg" alt="Profile Image">
         </div>
-
-        <!-- footer -->
-        <div class="videoFooter">
-          <div class="videoFooter__text">
-            <h3>Harinivas P</h3>
-            <p class="videoFooter__description">Best Video Ever</p>
-
-            <div class="videoFooter__ticker">
-              <span class="material-icons videoFooter__icon"> music_note </span>
-              <marquee>Song name</marquee>
-            </div>
-          </div>
-          <img
-            src="https://static.thenounproject.com/png/934821-200.png"
-            alt=""
-            class="videoFooter__record"
-          />
-        </div>
-      </div>
-      <!-- video ends -->
-
-      <!-- video starts -->
-      <div class="video" >
-        <video class="video__player" poster="/zuix-web-flix-master/source/images/thumb/Xvideos_clapping_in_the_bathroom_slut_360p.png" src="/zuix-web-flix-master/source/videos/Xvideos_clapping_in_the_bathroom_slut_360p.mp4"></video>
-
-        <!-- sidebar -->
-        <div class="videoSidebar">
-          <div class="videoSidebar__button">
-            <span class="material-icons"> favorite_border </span>
-            <p>12</p>
-          </div>
-<div class="videoSidebar__button">
-            <span style="color:gold" class="material-icons"> &#x2B50; </span>
-            
-          </div>
-          <div class="videoSidebar__button">
-            <span style="color:gold" class="material-icons"> money</span>
-            <p>23</p>
-          </div>
-
-          <div class="videoSidebar__button">
-            <span class="material-icons"> share </span>
-            <p>75</p>
-          </div>
-        </div>
-
-        <!-- footer -->
-        <div class="videoFooter">
-          <div class="videoFooter__text">
-            <h3>Harinivas P</h3>
-            <p class="videoFooter__description">Best Video Ever</p>
-
-            <div class="videoFooter__ticker">
-              <span class="material-icons videoFooter__icon"> music_note </span>
-              <marquee>Song name</marquee>
-            </div>
-          </div>
-          <img
-            src="https://static.thenounproject.com/png/934821-200.png"
-            alt=""
-            class="videoFooter__record"
-          />
-        </div>
-      </div>
-      <!-- video ends -->
-    
-
-
-<div class="content" layout="column bottom-center">
-    <div class="categories" layout="row center-spread">
-        Best እግር
-        &bull;
-        Best ተረከዝ
-        &bull;
-        Best 
-        &bull;
-        Action
-    </div>
-    <div layout="row center" data-ui-field="apnd"></div>
-    <div class="options" layout="row center-spread">
-      
-
-        <button data-ui-field="add-btn" class="flat-btn">
-            <i class="material-icons">add</i>
+        <button class="edit-button" onclick="document.getElementById('profile-pic-input').click();">
+            <i class="material-icons">edit</i>
         </button>
-        <button class="wtch" data-ui-field="watch-btn">
-            <div layout="row center-left">
-                <i class="material-icons">add_location</i>
-                Meet & fuck
-            </div>
-        </button>
-       
-        <button data-ui-field="details-btn" class="flat-btn">
-            <i class="material-icons">info_outline</i>
-        </button>
+        <input type="file" id="profile-pic-input" style="display: none;">
     </div>
-</div>
-<div class="row centered"><div data-ui-field="header-tools">
-  <div class="topics" data-ui-load="@lib/controllers/view_pager" data-ui-options="options.topicIndicator">
+    <form id="profileForm">
+        <div class="form-group" data-ui-field="editableName">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" value="Benny" data-ui-field="nameInput" required>
+        </div>
+        <div class="form-group">
+            <label for="bio">Bio</label>
+            <textarea id="bio" name="bio" rows="4" required>Hi, I'm John! I love hiking, photography, and trying out new restaurants. Looking to meet new people and make lasting connections.</textarea>
+        </div>
+        <div class="form-group">
+            <label for="interests">Interests</label>
+            <input type="text" id="interests" name="interests" value="Travel, Music, Cooking, Reading, Fitness" required>
+        </div>
+        <div class="form-group">
+            <label for="education">Education</label>
+            <input type="text" id="education" name="education" value="Bachelor's in Computer Science, ABC University" required>
+        </div>
+        <div class="form-group">
+            <label for="work">Work</label>
+            <input type="text" id="work" name="work" value="Web Developer at XYZ Company" required>
+        </div>
+        <button type="submit">Save</button>
+    </form>
+</main>
+
+<footer layout="row center-spread">
+    <div data-ui-field="edit-btn">
+        <i class="material-icons">edit</i>
+    </div>
     <div>
-      Dating
+        <i class="material-icons">thumb_up</i>
     </div>
-    <div>
-      reels
+    <div data-ui-field="save-btn">
+        <i class="material-icons">save</i>
     </div>
-    <div>
-      Photos
-    </div>
-    <div>
-      Travel
-    </div>
-  </div>
-  
-  </div>
-  <div data-ui-load="@lib/controllers/view_pager"
-      data-ui-options="options.viewPager"
-      class="feed-pager"
-      draggable="false">
-
-    <!-- TOP STORIES -->
-    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.topicIndicator">
-
-       <div data-ui-load="pages/home/list_o" data-o-rss='_data/news-main.rss.xml'></div>
-
-    </section>
-
-    <!-- WORLD -->
-    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.topicIndicator">
-
-          
-<div data-ui-load="pages/home/list_v"   data-o-rss='_data/news-main.rss.xml'
-     ></div>
-
-    </section>
-
-    <!-- EUROPE -->
-    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
-
-        <div data-ui-load="pages/home/items_list"
-             data-o-rss="_data/news-europe.rss.xml"></div>
-
-    </section>
-
-    <!-- TRAVEL -->
-    <section class="content" data-ui-load="@lib/controllers/header_auto_hide" data-ui-options="options.autoHidingBars">
-
-        <div data-ui-load="pages/home/items_list"
-             data-o-rss="_data/news-travel.rss.xml"></div>
-
-    </section>
-
-</div>
-   <h1 self="left">online</h1>
-<div data-ui-load="@lib/controllers/view_pager"
-     data-ui-lazyload="auto"
-     data-o-passive="false"
-     layout="row top-left"  class="containerm"
-   >
-<div data-ui-load="pages/home/list_o"   data-o-rss='_data/news-main.rss.xml'
-     ></div></div>
-  
-<!-- Comedy -->
-<h1 self="left">shorts</h1>
-<div data-ui-load="@lib/controllers/view_pager"
-     data-ui-lazyload="auto"
-     data-o-passive="false"
-     layout="row top-left"  class="galleryvv"
-   >
-<div data-ui-load="pages/home/list_comedy"   data-o-rss='_data/vmain.rss.xml'
-     ></div></div>
-  
-    <h1 self="left">videos</h1>
-<div data-ui-load="@lib/controllers/view_pager"
-     data-ui-lazyload="auto"
-     data-o-passive="false"
-     layout="row top-left"  class="galleryvv"
-   >
-  
-<div data-ui-load="pages/home/list_v"   data-o-rss='_data/news-main.rss.xml'
-     ></div></div>
-
-<div class="about-box" self="size-medium center" layout="column center-center">
-
-    <p>
-        If you like this template give it a star &#x2B50; on <a href="https://github.com/zuixjs/zuix-web-flix">GitHub</a>,
-        this will make the programmer happy &#128516; that will probably continue to improve it &#128640;
-    </p>
-    <p>
-        Feature requests, critics and comments are also welcome &#127752; in the repository <a href="https://github.com/zuixjs/zuix-web-flix/issues">issue tracker</a> &#128209;
-    </p>
-
-</div>
-
-
-<!-- Details Page -->
-<div data-ui-load="pages/home/title_details"
-     data-ui-options="options.detailsPage"></div>
-
-<div data-ui-load="pages/home/profed"
-     data-ui-options="options.profedPage"></div>
-<!-- Details Page -->
-<div data-ui-load="pages/home/title_detail"
-     data-ui-options="options.detailPage"></div>
-     
-<!-- Details Page -->
-
-     <div data-ui-load="pages/home/msg_Page"
-     data-ui-options="options.msgPage"></div>
+</footer>
+</body>
+</html>
